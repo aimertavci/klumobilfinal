@@ -16,7 +16,7 @@ Api Güvenliği -JSON Web Token
 
 
 
-![enter image description here](https://esinavtest.com/mobil/main2.png)
+![enter image description here](https://esinavtest.com/mobil/video3.gif)
 
 
 
