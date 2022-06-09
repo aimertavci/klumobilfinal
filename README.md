@@ -1,12 +1,14 @@
 # Gezi Uygulaması
 Uygulamanın amacı; şehri bilmeyen biri bu uygulamayı cihazına indirerek kullanabilmesidir.
- **Hazırlayanlar**
+
+# Hazırlayanlar
  1190505902 Mert AVCI
  1190505901 Emrah Çelik
 
-Uygulama Dili
+# Uygulama Dili
 Kotlin
 
+# Veri Tabanı - Web Servis
 CRUD İşlemler- REST API
 Veritabanı - Mysql
 Api Dili - PHP
