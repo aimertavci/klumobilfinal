@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/act_back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_giris"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="55dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="click_bilgi"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="0dp"
+            android:text="BİLGİLERİM"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_kayit"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="55dp"
+            android:backgroundTint="#E55F2C"
+            android:onClick="click_cikis"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="0dp"
+            android:text="ÇIKIŞ YAP"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_main_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click_main_kategori"
+            android:text="Kategoriler" />
+
+        <Button
+            android:id="@+id/btn_main_kategori2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favoriler" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
